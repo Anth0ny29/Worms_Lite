@@ -18,7 +18,7 @@ s1 =Scale(f, label='hausse', from_=90, to=0, command=b1.orienter)
 s1.pack(side=LEFT, pady =5, padx =20)
 s1.set(0)                          # angle de tir initial
 s2 =Scale(f, label='hausse', from_=90, to=180, command=b2.orienter)
-s2.pack(side=RIGHT, pady =7, padx =20)
+s2.pack(side=RIGHT, pady =5, padx =20)
 s2.set(180)
 boutton_tir=Button(f,text='tir',command=create_roquette1)
 boutton_tir.pack(side=RIGHT)
