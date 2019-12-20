@@ -9,7 +9,7 @@ class Worms(Frame):
         
 
     def create_roquette2(self):
-        self.roquette2=Roquette(self.can,self.b1.x2,self.b1.y2,'green')
+        self.roquette2=Roquette(self.can,self.b2.x2,self.b2.y2,'green')
 
     def destroy_roquette1(self):
         self.roquette1.destroy()
